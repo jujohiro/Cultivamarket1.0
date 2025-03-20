@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import { 
-  View, 
-  Text, 
-  TextInput, 
-  TouchableOpacity, 
-  ImageBackground, 
-  Image 
-} from "react-native";
+  View, Text,  TextInput,  TouchableOpacity, ImageBackground, Image,Alert,ActivityIndicator } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+
 
 export default function LoginScreen({ navigation }) {
   const [passwordVisible, setPasswordVisible] = useState(false);
